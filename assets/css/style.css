@@ -203,6 +203,11 @@ footer {
     #header_nav_inner {
         align-content: space-around
     }
+    /* this was necessary so that my last name wouldn't go from being
+    to the left of my first name to being below it */
+    header {
+        padding: 30px 0px;
+    }
 }
 
 @media screen and (max-width: 768px) {
