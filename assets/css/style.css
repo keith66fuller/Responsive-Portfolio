@@ -191,11 +191,23 @@ footer {
     .middle_sections,#header_nav_inner,#middle_content_inner {
         width: 980px;
     }
+    .width_650 {
+        width: 70%;
+    }
+    .width_270 {
+        width: 30%;
+    }
+    nav {
+        justify-content: center;
+    }
+    #header_nav_inner {
+        align-content: space-around
+    }
 }
 
 @media screen and (max-width: 768px) {
     .middle_sections,#header_nav_inner,#middle_content_inner {
-        width: 768px;
+        width: auto;
     }
 
     .middle_content_inner {
@@ -208,7 +220,8 @@ footer {
     nav,header,.middle_sections,#header_nav_inner,#middle_content_inner {
         width: 100%;
     }
-    #header_nav_inner {
+
+     #header_nav_inner {
         flex-direction: column;
     }
 
@@ -216,7 +229,5 @@ footer {
         height: auto;
     }
 
-    nav {
-        justify-content: center;
-    }
+
 }
